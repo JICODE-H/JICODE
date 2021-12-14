@@ -67,7 +67,9 @@
       </div>
     </div>
 
-    <div class="jifit"></div>
+    <div class="jifit">
+      
+    </div>
 
     <footer></footer>
   </div>
