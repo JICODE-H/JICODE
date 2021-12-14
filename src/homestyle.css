@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    vertical-align: middle;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  /**/
+  .wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+  .inner {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 400px;
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  /*공통 */
+  
+  .header {
+    position: relative;
+    margin: 0 auto;
+    width: 1920px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .headerImg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .headerP {
+    position: absolute;
+    top: 258px;
+    left: 472px;
+  }
+  .headerP img {
+    width: 222px;
+    padding-bottom: 60px;
+  }
+  .headerP p {
+    font-size: 30px;
+    line-height: 1.75;
+    font-weight: 500;
+  }
+  .header .bnt {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    position: absolute;
+    bottom: 220px;
+    right: 433px;
+    color: #fff;
+    border: solid 2.65px #fff;
+    border-radius: 30px;
+    padding: 10px 14.5px 11px;
+    transition: all 0.2s;
+  }
+  .header .bnt:hover,
+  .header .bnt:focus {
+    border-radius: 0;
+    border: 1px solid transparent;
+    border-bottom: solid 2.65px #fff;
+    transition: all 0.2s;
+  }
+  /*header*/
+  
+  .company {
+    position: relative;
+    height: 100%;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    margin: 70px 0 119px;
+  }
+  .company .headtext {
+    margin-left: 2px;
+    padding-bottom: 11.5px;
+  }
+  .company .textIcon {
+    width: 90px;
+    padding-bottom: 10px;
+    margin-top: 9px;
+  }
+  .company .headtext h2 {
+    font-size: 39px;
+  }
+  .company .headtext h2 span {
+    letter-spacing: 1.3px;
+  }
+  .company .headtext h1 {
+    margin-top: -1px;
+    margin-left: -5px;
+    text-transform: uppercase;
+    line-height: 1.08;
+    font-weight: 800;
+    font-size: 72px;
+    padding-bottom: 57.8px;
+  }
+  .company .textbox {
+    height: 471px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .company .textbox p {
+    font-size: 30px;
+    color: #2c2c2c;
+    letter-spacing: -1.5px;
+    line-height: 1.3;
+}
+  .deployment .inner .title {
+      font-size: 35px;
+      font-weight: 900;
+      padding-bottom: 18px;
+      letter-spacing: -0.6px;
+      margin-left: -3px;
+      margin-bottom: 1px;
+    }
+    .deployment .inner ul {
+      display: flex;
+      justify-content: space-between;
+      width: 1173px;
+  }
+  .deployment .inner ul li {
+    width: 276px;
+    height: 276px;
+  }
+  .deployment .inner ul li:first-child{
+      padding-right: 2px;
+      width: 270px; height: 270px;
+      padding-top: 3px;
+    }
+  .deployment .inner ul li span {
+    position: relative;
+    display: block;
+  }
+  .deployment .inner ul li span img {
+    width: 100%;
+  }
+  .deployment .inner ul li span p {
+      background-color: aqua;
+    position: absolute;
+    font-size: 30px;
+    bottom: 30px; right: 50px;
+    letter-spacing: -0.6px;
+  }
