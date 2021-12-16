@@ -68,7 +68,34 @@
     </div>
 
     <div class="jifit">
-      
+      <img class="bg" src="./assets/drawable-xxxhdpi/메인/background_img.png" alt="배경1">
+      <div class="inner">
+        <div class="title">Jicode Solution Program</div>
+        <div class="box">
+          <img src="./assets/drawable-xxxhdpi/메인/jifit_logo.png" alt="지피트로고">
+          <p>일반 헬스기구에 장착하여
+            <br>운동 중량, 운동 개수, 휴식 시간 등을 수집.
+            <br>앱과 웹을 통해 운동 통계 데이터를
+            <br>한 눈에 볼 수 있는 <span>장착형 스마트 짐 솔루션</span></p>
+        </div>
+        <img class="img" src="./assets/drawable-xxxhdpi/메인/입체이미지.png" alt="제품이미지">
+        <img class="img2" src="./assets/drawable-xxxhdpi/메인/아이콘도식화.png" alt="">
+      </div>
+    </div>
+
+    <div class="list">
+      <img class="bg" src="./assets/drawable-xxxhdpi/메인/background.png" alt="">
+      <div class="inner">
+        <div class="title">Jicode Portfoilo List</div>
+        <ul>
+          <li><span><img src="" alt=""></span></li>
+          <li><span><img src="" alt=""></span></li>
+          <li><span><img src="" alt=""></span></li>
+          <li><span><img src="" alt=""></span></li>
+          <li><span><img src="" alt=""></span></li>
+          <li><span><img src="" alt=""></span></li>
+        </ul>
+      </div>
     </div>
 
     <footer></footer>
