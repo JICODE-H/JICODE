@@ -2,7 +2,7 @@
   
 <div class="top">
     <a href="#">
-    <img class="logo" src="./assets/drawable-xxxhdpi/jicode_logo.png" alt="">
+    <img class="logo" src="../assets/drawable-xxxhdpi/icon_4.png" alt="">
     </a>
     <div class="Menu">
     <ul class="Menuul">

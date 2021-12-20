@@ -106,36 +106,19 @@
       <p>지코드 위치</p>
       <img class="map" src="./assets/drawable-xxxhdpi/map.png" alt="">
       </div>
-      <div class="bottem">
-        <img class="footerlogo" src="./assets/drawable-xxxhdpi/jicode2.png" alt="">
-        <div class="footertext">
-          <span>지코드(JICODE)</span>
-          <p>34138 대전광역시 궁동 대학로169 지하층
-          <br>169, Daehak-ro, Yuseong-gu, Daejeon,
-          <br>Republic of Korea</p>
-          <p>사업자등록번호 00000-0000000
-          <br>대표전화 000-000-0000
-        </p>
-        </div>
-        <div class="sns">
-        <ul>
-          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_4.png" alt=""></a></li>
-          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_5.png" alt=""></a></li>
-          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_6.png" alt=""></a></li>
-          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_7.png" alt=""></a></li>
-        </ul>
-        </div>
-      </div>
+      <Footertext />
     </footer>
   </div>
 </template>
 
 <script>
-import Menu from "./Menu.vue";
+import Menu from "./components/Menu.vue";
+import Footertext from "./components/Footertext.vue";
 
 export default {
   name: "App",
   components: {
+    Footertext: Footertext,
     Menu: Menu,
   },
 };
