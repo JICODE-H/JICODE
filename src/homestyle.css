@@ -22,14 +22,13 @@
     margin: 0 auto;
   }
   .inner {
-    padding: 0 400px;
+    padding: 0 402px;
     box-sizing: border-box;
   }
   .title { 
     font-size: 35px;
     font-weight: 900;
-    letter-spacing: -0.5px;
-    margin-left: -1px;      
+    letter-spacing: -0.5px;     
   }
   /*공통 */
   
@@ -44,10 +43,9 @@
     width: 100%;
     height: 100%;
   }
-  
   .headerP {
     position: absolute;
-    top: 258px;
+    top: 259px;
     left: 473px;
   }
   .headerP img {
@@ -56,6 +54,7 @@
   }
   .headerP p {
     font-size: 30px;
+    margin-left: 1.5px;
     line-height: 1.75;
     font-weight: 500;
   }
@@ -87,16 +86,16 @@
     height: 100%;
     line-height: 1.4;
     letter-spacing: -0.4px;
-    margin: 70px 0 119px;
-  }
-  .company .headtext {
-    margin-left: 2px;
-    padding-bottom: 11.5px;
+    margin: 71px 0 118px;
   }
   .company .textIcon {
     width: 90px;
     padding-bottom: 10px;
-    margin-top: 9px;
+    margin-top: 7px;
+  }
+  .company .headtext {
+    margin-left: 1px;
+    padding-bottom: 11.5px;
   }
   .company .headtext h2 {
     font-size: 39px;
@@ -105,13 +104,13 @@
     letter-spacing: 1.3px;
   }
   .company .headtext h1 {
-    margin-top: -1px;
     margin-left: -5px;
     text-transform: uppercase;
-    line-height: 1.08;
+    letter-spacing: -1.2px;
+    line-height: 1.07;
     font-weight: 800;
-    font-size: 72px;
-    padding-bottom: 57.8px;
+    font-size: 72.8px;
+    padding-bottom: 57px;
   }
   .company .textbox {
     height: 471px;
@@ -122,15 +121,16 @@
   .company .textbox p {
     font-size: 30px;
     color: #2c2c2c;
-    letter-spacing: -1.5px;
+    letter-spacing: -1.4px;
     line-height: 1.3;
-}
-/*company*/
-
-  .deployment {margin-bottom: 195px;}
+  }
+  /*company*/
+  
+  .deployment {
+    margin-bottom: 192px;}
   .deployment .inner .title {
-      padding-bottom: 18px;
-      margin-bottom: 1px;
+    margin-left:-2px;
+    padding-bottom: 18px;
     }
   .deployment .inner ul {
       display: flex;
@@ -165,25 +165,26 @@
 
   .jifit {
     position: relative;
-    padding-bottom: 1242px;}
-  .jifit img {
+    height: 1242px;
+  }
+  .jifit .bg {
       position: absolute;
       z-index: 1;
-      top: 0; width: 939px;
+      top: 0; width: 941px;
   }
   .jifit .inner {
     position: absolute;
     z-index: 10;
   }
-  .jifit .inner .title {padding: 69px 0 84px;}
+  .jifit .inner .title {padding: 72px 0 82px;}
   .jifit .inner .box img {
     position: static;
-    width: 180px; height: 88px;
+    width: 182px; height: 90px;
   }
   .jifit .inner .box p {
     color: #555555;
     opacity: 0.8;
-    margin: 13.5px 0 0;
+    margin: 13.5px 0 0 -5px;
     font-size: 20px;
     letter-spacing: -0.6px;
   }
@@ -192,24 +193,126 @@
     opacity: 0.8;
     font-weight: 600;
   }
-  .jifit .inner .img {
-    right: -36.05%; top: 16.5%;
+  .jifit .inner .product {
+    position: absolute;
+    top: 71px; right: 260px;
     width: 891px;
   }
-  .jifit .inner .img2 {
-    width: 1113px;
-    left: 410px; top: 182%;
+  .jifit .inner .schematization {
+    width: 1114px;
+    margin: 346px 7.5px 0;
   }
   /*jifit*/
 
  .list {
    position: relative;
    margin: 0 auto;
-   width: 1920px;
-   margin-top: 134px;
- }
- .list .bg {background-color: #333;
+   margin-top: 137px;
+   height: 1010px;
+  }
+  .list .bg {
    position: absolute;
-   right: 0; top: -25px;
-   width: 1140px;
- }
+   right: 0; top: -250px; 
+   width: 1135px; height: 1260px;
+   z-index: 1;
+  }
+  .list .inner .listbox {
+    position: absolute;
+   margin: 27px -4px 0;
+   z-index: 10;
+  }
+  .list .inner .listbox ul  {
+    width: 1143px; height: 753px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .list .inner .listbox ul li {
+    background-color: #ececec;
+    width: 363px; height: 363px;
+    border: solid 1px #8f8f8f;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .list .inner .listbox ul li span {
+    margin: 0 20px;
+  }
+  .list .inner .listbox ul li img {
+    width: 100%;
+  }
+  /*list*/
+
+  footer {
+    background: #333;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 112px;
+  }
+  footer .centerbox {
+    text-align: center;
+    padding-top: 35px;
+  }
+  footer .centerbox h2 {
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 24px;
+    margin-bottom: 17px;
+    position: relative;
+    display: inline-block;
+  }
+  footer .centerbox h2::after {
+    content: '';
+    background: #fff;
+    position: absolute;
+    height: 2px; width: 51px;
+    bottom: 0; right: 50%;
+    transform: translateX(50%);
+  }
+  footer .centerbox p {
+    font-size: 26px;
+    padding-bottom: 35px;
+  }
+  footer .centerbox .map {
+    height: 465px; width: 609px;
+    margin-bottom: 84px;
+  }
+  footer .bottem {
+    height: 146px; width: 1269px;
+    margin: 0 auto;
+    position: relative;
+  }
+  footer .bottem .footerlogo {width: 174px;}
+  footer .bottem .footertext {
+    position: absolute;
+    top: -4px; left: 318px;
+  }
+  footer .bottem .footertext span {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  footer .bottem .footertext p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 9px;
+  }
+  footer .bottem .sns{
+    position: absolute;
+    bottom: 0; right: 0;
+  }
+  footer .bottem ul{
+    display: flex;
+    width: 209px;
+    justify-content: space-between;
+  }
+  footer .bottem ul li {
+    width: 24px; height: 24px;
+  }
+  footer .bottem ul li:nth-child(2){
+    width: 30px; height: 24px;
+  }
+  footer .bottem ul li img {
+    margin-top: -6px;
+    width: 100%; height: 100%;
+  }

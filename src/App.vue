@@ -78,8 +78,8 @@
             <br>앱과 웹을 통해 운동 통계 데이터를
             <br>한 눈에 볼 수 있는 <span>장착형 스마트 짐 솔루션</span></p>
         </div>
-        <img class="img" src="./assets/drawable-xxxhdpi/메인/입체이미지.png" alt="제품이미지">
-        <img class="img2" src="./assets/drawable-xxxhdpi/메인/아이콘도식화.png" alt="">
+        <img class="product" src="./assets/drawable-xxxhdpi/메인/입체이미지.png" alt="제품이미지">
+        <img class="schematization" src="./assets/drawable-xxxhdpi/메인/아이콘도식화.png" alt="">
       </div>
     </div>
 
@@ -87,18 +87,46 @@
       <img class="bg" src="./assets/drawable-xxxhdpi/메인/background.png" alt="">
       <div class="inner">
         <div class="title">Jicode Portfoilo List</div>
+        <div class="listbox">
         <ul>
-          <li><span><img src="" alt=""></span></li>
-          <li><span><img src="" alt=""></span></li>
-          <li><span><img src="" alt=""></span></li>
-          <li><span><img src="" alt=""></span></li>
-          <li><span><img src="" alt=""></span></li>
-          <li><span><img src="" alt=""></span></li>
-        </ul>
+          <li><img src="./assets/drawable-xxxhdpi/img1.png" alt=""></li>
+          <li><img src="./assets/drawable-xxxhdpi/img2.png" alt=""></li>
+          <li><span><img src="./assets/drawable-xxxhdpi/img3.png" alt=""></span></li>
+          <li><span><img src="./assets/drawable-xxxhdpi/img4.png" alt=""></span></li>
+          <li><img src="./assets/drawable-xxxhdpi/img5.png" alt=""></li>
+          <li><img src="./assets/drawable-xxxhdpi/img6.png" alt=""></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <footer></footer>
+    <footer>
+      <div class="centerbox">
+      <h2>Company Direction</h2>
+      <p>지코드 위치</p>
+      <img class="map" src="./assets/drawable-xxxhdpi/map.png" alt="">
+      </div>
+      <div class="bottem">
+        <img class="footerlogo" src="./assets/drawable-xxxhdpi/jicode2.png" alt="">
+        <div class="footertext">
+          <span>지코드(JICODE)</span>
+          <p>34138 대전광역시 궁동 대학로169 지하층
+          <br>169, Daehak-ro, Yuseong-gu, Daejeon,
+          <br>Republic of Korea</p>
+          <p>사업자등록번호 00000-0000000
+          <br>대표전화 000-000-0000
+        </p>
+        </div>
+        <div class="sns">
+        <ul>
+          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_4.png" alt=""></a></li>
+          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_5.png" alt=""></a></li>
+          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_6.png" alt=""></a></li>
+          <li><a href="#"><img src="./assets/drawable-xxxhdpi/icon_7.png" alt=""></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 

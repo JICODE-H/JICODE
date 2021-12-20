@@ -45,7 +45,7 @@ export default {
 .header .top .logo {
   width: 60px;
   position: absolute;
-  top: 25%; left: 17%;
+  top: 30%; left: 17%;
 }
 .header .top .Menu {
   position: absolute;
