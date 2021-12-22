@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    vertical-align: middle;
+  }
+  ul, li {
+    list-style: none;
+  }
+  /**/
+  .wrap {
+    overflow: hidden;
+    width: 1920px; height: 3552px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .wrap .background {
+      width: 100%; height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+  }
+  .inner {
+    padding: 0 402px;
+    box-sizing: border-box;
+  }
+  .title { 
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: -0.5px;     
+  }
+  /*공통 */
+
+  header {
+    color: rgba(255, 255, 255, 0.8);}
+  header .headerimg {
+      height: 100%; width: 100%;}
