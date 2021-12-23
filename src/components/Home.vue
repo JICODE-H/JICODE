@@ -101,12 +101,14 @@
     </div>
 
     <footer>
+      <div class="footer">
       <div class="centerbox">
       <h2>Company Direction</h2>
       <p>지코드 위치</p>
       <img class="map" src="../assets/drawable-xxxhdpi/map.png" alt="">
       </div>
       <Footertext />
+      </div>
     </footer>
   </div>
 

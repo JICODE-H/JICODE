@@ -2,42 +2,141 @@
     padding: 0;
     margin: 0;
     font-family: "Noto Sans KR", sans-serif;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  img {
-    vertical-align: middle;
-  }
-  ul, li {
-    list-style: none;
-  }
-  /**/
-  .wrap {
-    overflow: hidden;
-    width: 1920px; height: 3552px;
-    margin: 0 auto;
-    position: relative;
-  }
-  .wrap .background {
-      width: 100%; height: 100%;
-      position: absolute;
-      top: 0;
-      z-index: -1;
-  }
-  .inner {
-    padding: 0 402px;
-    box-sizing: border-box;
-  }
-  .title { 
-    font-size: 35px;
-    font-weight: 900;
-    letter-spacing: -0.5px;     
-  }
-  /*공통 */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  vertical-align: middle;
+}
+ul, li {
+  list-style: none;
+}
 
-  header {
-    color: rgba(255, 255, 255, 0.8);}
-  header .headerimg {
-      height: 100%; width: 100%;}
+.wrapD {
+  overflow: hidden;
+  width: 1920px; height: 3552px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapD .background {
+  width: 100%; height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.inner {
+  padding: 0 402px;
+  box-sizing: border-box;
+}
+.title { 
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: -0.5px;     
+}
+/*공통 */
+
+.wrapD header {
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+}
+.wrapD header .headerimg { 
+  height: 100%; width: 100%;
+}
+.wrapD header .headertext {
+  position: absolute;
+  top: 315px; left: 474px;
+}
+.wrapD .headertext h2 {
+  letter-spacing: -1.7px;
+  font-size: 45px;
+  line-height: 1;
+}
+.wrapD .headertext h1 {
+  font-size: 74px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.05;
+  color: #fff799;
+  margin: 9px 0 0 -4px;
+  letter-spacing: -1px;
+}
+.wrapD .headertext p {
+  margin-top: 36px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+.wrapD .headertext p span {font-weight: 700;}
+/*headertext*/
+
+.wrapD .jicodeD {
+  text-align: center;
+}
+.wrapD .jicodeD > .in {
+  margin: 125.1px auto;
+  display: inline-block;
+}
+.wrapD .jicodeD > .in > img {
+  width: 599.1px;
+  margin: 0 0 32.5px 27px;
+}
+.wrapD .jicodeD > .in > p {
+  font-size: 30px;
+  line-height: 1.28;
+  margin-left: 38px;
+  letter-spacing: -1px;
+}
+.wrapD .jicodeD > .in > p span {font-weight: 600;}
+.in > ul {
+  width: 1269px; height: 485.1px;
+  margin: 75.9px 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.in ul li {
+  background: #eee;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 402px;
+}
+.in ul li .imgbox {
+  width: 147.9px;
+  padding: 59px 0 20px;
+}
+.in ul li:nth-child(2) .imgbox img { width: 126px;}
+.in ul li img {width: 100%;}
+.in ul li .ultext h3 {
+  font-size: 40px;
+  letter-spacing: -1.4px;
+}
+.in ul li .ultext p {
+  color: rgb(92, 92, 92);
+  font-size: 25px;
+  line-height: 1.45;
+  font-weight: 500;
+  margin-top: 1px;
+}
+/*jicodeD*/
+
+.structure {
+  margin: 80px 0 245px 441px;
+}
+.structure h3 {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+}
+.structure .imgS {
+  margin: 71.1px 39px;
+  width: 927px; height: 690px;
+}
+.structure .imgS img {width: 100%; height: 100%;}
+
+#development {
+  
+}
