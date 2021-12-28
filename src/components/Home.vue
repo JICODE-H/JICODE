@@ -30,7 +30,7 @@
           <h1>development<br />company</h1>
         </div>
         <div class="textbox">
-          <p>코드는 다분야의 기술들을 기반으로 
+          <p>지코드는 다분야의 기술들을 기반으로 
             <br />새로운 가치를 만들어나가는
             <br />IT비즈니스 기업입니다.</p>
           <p>S/W, H/W, 3D Modeling / Printing등의 범용적인 기술부터 
@@ -101,7 +101,7 @@
     </div>
 
     <footer>
-      <div class="footer">
+      <div class="homefooter">
       <div class="centerbox">
       <h2>Company Direction</h2>
       <p>지코드 위치</p>

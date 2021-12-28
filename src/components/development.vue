@@ -16,7 +16,7 @@
   <div class="jicodeD">
     <div class="in">
     <img  src="../assets/drawable-xxxhdpi/jicode3.png" alt="" class="jicode">
-    <p>지코드는 다분야의 기술들을 기반의 IT비즈니스 기업으로,
+    <p>지코드는 다분야 기술 기반의 IT비즈니스 기업으로,
      <br><span>S/W. H/W, 3D Modeling / Printing</span>등의 범용적인 기술부터
      <br>IoT, AI, BIG DATA와 같은 4차 산업혁명 혁신기술까지
      <br>고도화된 다양한 솔루션을 제공합니다.</p>
@@ -53,8 +53,10 @@
       <img src="../assets/drawable-xxxhdpi/소개/관계도.png" alt="">
     </div>
   </div>
-  <footer id="development">
-  <Footertext />
+  <footer>
+    <div class="footer">
+    <Footertext />
+    </div>
   </footer>
 </div>
 

@@ -1,7 +1,7 @@
 <template>
   
 <div class="top">
-    <a href="#">
+    <a href="http://localhost:8080/">
     <img class="logo" src="../assets/drawable-xxxhdpi/jicode_logo.png" alt="">
     </a>
     <div class="Menu">
@@ -14,7 +14,7 @@
       </ul></li>
       <li><a href="#">Project</a>
       <ul>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="http://localhost:8080/portfolio">Portfolio</a></li>
       </ul></li>
       <li><a href="#">Contact us</a>
       <ul>
@@ -69,9 +69,12 @@ export default {
   display: none;
 }
 .top .Menuul li:hover > a {
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
   color: rgb(84, 155, 117);}
 .top .Menuul li:hover ul {display: block;}
 .top .Menuul ul li {padding-top: 17px;}
 .top .Menuul ul li:hover {color: rgb(84, 155, 117);}
 </style>
+
+
+

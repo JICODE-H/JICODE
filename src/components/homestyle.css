@@ -18,7 +18,7 @@
   .wrap {
     width: 100%;
     overflow: hidden;
-    width: 1920px;
+    /* width: 1920px; */
     margin: 0 auto;
   }
   .inner {
@@ -138,8 +138,7 @@
       width: 1173px;
   }
   .deployment .inner ul li {
-    width: 276px;
-    height: 276px;
+    width: 276px; height: 276px;
   }
   .deployment .inner ul li:first-child{
       padding-right: 2px;
@@ -244,17 +243,17 @@
   }
   /*list*/
 
-  .footer {
+  .homefooter {
     background: #333;
     color: #fff;
     margin: 0 auto;
     padding-bottom: 112px;
   }
-  .footer .centerbox {
+  .homefooter .centerbox {
     text-align: center;
     padding-top: 35px;
   }
-  .footer .centerbox h2 {
+  .homefooter .centerbox h2 {
     font-size: 36px;
     font-weight: 900;
     padding-bottom: 24px;
@@ -262,7 +261,7 @@
     position: relative;
     display: inline-block;
   }
-  .footer .centerbox h2::after {
+  .homefooter .centerbox h2::after {
     content: '';
     background: #fff;
     position: absolute;
@@ -270,11 +269,11 @@
     bottom: 0; right: 50%;
     transform: translateX(50%);
   }
-  .footer .centerbox p {
+  .homefooter .centerbox p {
     font-size: 26px;
     padding-bottom: 35px;
   }
-  .footer .centerbox .map {
+  .homefooter .centerbox .map {
     height: 465px; width: 609px;
     margin-bottom: 84px;
   }
