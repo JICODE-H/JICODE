@@ -125,6 +125,7 @@ export default {
       Menu: Menu,
   },
 }
+
 </script>
 
 <style>
