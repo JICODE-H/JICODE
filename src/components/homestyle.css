@@ -16,9 +16,8 @@
   }
   /**/
   .wrap {
-    width: 100%;
     overflow: hidden;
-    /* width: 1920px; */
+    width: 1920px;
     margin: 0 auto;
   }
   .inner {
@@ -34,9 +33,6 @@
   
   .header {
     position: relative;
-    margin: 0 auto;
-    width: 1920px;
-    height: 100%;
     color: rgba(255, 255, 255, 0.8);
   }
   .headerImg {

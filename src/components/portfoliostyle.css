@@ -1,99 +1,80 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Noto Sans KR", sans-serif;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-img {
-  vertical-align: middle;
-}
-ul, li {
-  list-style: none;
-}
 
-.wrepP {
-    width: 1920px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  .wrepP .back {
+  .back {
     position: absolute;
     top: 0;
+    height: 2313px;
   }
-  .wrepP .back img {
+  .back img {
     width: 100%; height: 100%;
   }
-  .wrepP .headerbox {
+  .headerbox {
     position: relative;
     height: 653.1px;
   }
-  .wrepP .headerbox > img {
+  .headerbox > img {
     position: absolute;
     bottom: 0;
     width: 100%;
   }
-  .wrepP .headerbox .toplogobox {
+  .headerbox .toplogobox {
     position: absolute;
     left: 475px; top: 276.9px;
     color: #fff799;
   }
-  .wrepP .headerbox .toplogobox img {
+  .headerbox .toplogobox img {
     width: 137.5px;
   }
-  .wrepP .headerbox .toplogobox h1 {
+  .headerbox .toplogobox h1 {
     margin-left: -5px;
     font-size: 75px;
     font-weight: 900;
     line-height: 1.3;
     letter-spacing: -1.1px;
   }
-  .wrepP .midbox {
+  .midbox {
   position: relative;
   margin: 179px 0 308px 328px;
   width: 1264px; height: 804px;
 }
-.wrepP .midbox ul {
+.midbox ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.wrepP .midbox ul li {
+.midbox ul li {
   overflow: hidden;
   border: solid 1px #333;
   box-sizing: border-box;
   width: 402px; height: 402px;
   margin-bottom: 30px;
 }
-.wrepP .midbox ul li a {
+.midbox ul li a {
   display: block;
   position: relative;
   width: 100%; height: 100%;
 }
-.wrepP .midbox ul li a img {
+.midbox ul li a img {
   width: 100%; height: 100%;
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
 }
-.wrepP .midbox ul li:nth-child(1) a img {margin-left: 10px;} 
-.wrepP .midbox ul li:nth-child(3) a img , 
-.wrepP .midbox ul li:nth-child(4) a img {
+.midbox ul li:nth-child(1) a img {margin-left: 10px;} 
+.midbox ul li:nth-child(3) a img , 
+.midbox ul li:nth-child(4) a img {
   width: 90%; height: 70%;
 }
-.wrepP .midbox ul li a span {
+.midbox ul li a span {
   display: none;
 }
-.wrepP .midbox ul li a:hover::after {
+.midbox ul li a:hover::after {
   content: '';
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
-.wrepP .midbox ul li a:hover span {
+.midbox ul li a:hover span {
   position: absolute;
   display: block;
   top: 50%;

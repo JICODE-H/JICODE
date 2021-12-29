@@ -18,7 +18,7 @@
       </ul></li>
       <li><a href="#">Contact us</a>
       <ul>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="http://localhost:8080/contact">Contact us</a></li>
         <li><a href="#">Direction</a></li>
       </ul></li>
     </ul>

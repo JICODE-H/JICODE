@@ -2,7 +2,7 @@
 
 <Ptpul :모달창="모달창" @닫기="모달창 = false"/>
 
-  <div class="wrepP">
+  <div class="wrap">
     <div class="back">
        <img src="../assets/drawable-xxxhdpi/포폴/배경이미지.png" alt="">
        </div>
