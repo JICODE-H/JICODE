@@ -3,8 +3,7 @@
   <div class="wrap">
     <header>
       <div class="header">
-        <img
-          class="headerImg"
+        <img class="headerImg"
           src="../assets/drawable-xxxhdpi/메인/header.png"
           alt="헤더이미지">
         <Menu />
