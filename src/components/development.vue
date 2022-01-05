@@ -12,7 +12,7 @@
       <p>고객의 니즈에 맞춰 <span>펌웨어/소프트웨어 개발</span>로
        <br>전문적인 시스템 기능의 솔루션을 제공합니다</p>
       </div>
-  </header>
+  </header> 
   <div class="jicodeD">
     <div class="in">
     <img  src="../assets/drawable-xxxhdpi/jicode3.png" alt="" class="jicode">
