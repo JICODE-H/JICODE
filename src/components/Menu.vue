@@ -9,7 +9,7 @@
       <li><a href="#">Company</a>
       <ul>
         <li><a href="#">Introduce</a></li>
-        <li><a href="#">Technology</a></li>
+        <li><a href="http://localhost:8080/development">Technology</a></li>
         <li><a href="#">Structure</a></li>
       </ul></li>
       <li><a href="#">Project</a>
