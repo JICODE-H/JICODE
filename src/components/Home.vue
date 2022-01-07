@@ -17,7 +17,7 @@
             UI / UX Design
           </p>
         </div>
-        <a class="bnt" href="#">문의하러 가기</a>
+        <a class="bnt" href="http://localhost:8080/contact">문의하러 가기</a>
       </div>
     </header>
     
